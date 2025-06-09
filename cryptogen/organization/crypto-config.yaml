@@ -1,0 +1,18 @@
+##### Orderer Organization
+OrdererOrgs:
+  - Name: Orderer
+    Domain: orderer.com
+    Specs:
+      - Hostname: orderer
+     
+  
+##### Peer Organizations
+PeerOrgs:
+  # Organization 1
+  - Name: Org1
+    Domain: Org1.com
+    Specs:
+      - Hostname: peer1
+        CommonName: peer1
+    Users:
+      Count: 2
